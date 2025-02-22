@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/conedison",
-  "version": "0.0.1",
+  "name": "fixed-conedison",
+  "version": "0.0.2",
   "description": "Utilities for Uniswap front-end development",
   "repository": "https://github.com/Uniswap/conedison",
   "homepage": "https://github.com/Uniswap/conedison#readme",
@@ -47,7 +47,7 @@
     "@types/react": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
-    "@uniswap/sdk-core": "^3.1.0",
+    "@uniswap/sdk-core": "7.6.0",
     "@walletconnect/ethereum-provider-v1": "npm:@walletconnect/ethereum-provider@^1.8.0",
     "@walletconnect/ethereum-provider-v2": "npm:@walletconnect/ethereum-provider@^2.4.6",
     "babel-jest": "^29.3.0",
@@ -67,5 +67,6 @@
   "peerDependencies": {
     "@uniswap/sdk-core": ">=3",
     "ethers": "^5.6.1"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha512.ff4579ab459bb25aa7c0ff75b62acebe576f6084b36aa842971cf250a5d8c6cd3bc9420b22ce63c7f93a0857bc6ef29291db39c3e7a23aab5adfd5a4dd6c5d71"
 }
